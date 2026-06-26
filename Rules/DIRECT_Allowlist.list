@@ -1,0 +1,16 @@
+# Work and unbreak allowlist. This file must be referenced before reject rules.
+
+# > Tencent Ads
+DOMAIN-SUFFIX,ad.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,gdtimg.com
+
+# > Sensors Data tenant access
+DOMAIN,jihuxinxi.cloud.sensorsdata.cn
+
+# > Existing direct unbreak entries that are shadowed by reject lists
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN-SUFFIX,vi.l.qq.com
